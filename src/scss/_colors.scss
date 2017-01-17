@@ -16,14 +16,14 @@
 $colors_count: 22;
 
 $colors: (
-		1: #f3317a,
-		2: #515151,
-		3: #fcfcfc,
-		4: #ffffff,
-		5: #7cd3ce,
-		6: #1cbbe3,
-		7: #c2bcb5,
-		8: #5dc4be,
+		1: #fa5c65,
+		2: #eded00,
+		3: #314a5b,
+		4: #0568bf,
+		5: #ef6300,
+		6: #59d600,
+		7: #8400ea,
+		8: #4BE5C3,
 		9: #dd613b,
 		10: #a1744f,
 		11: #37bdb6,
@@ -31,13 +31,20 @@ $colors: (
 		13: #f3d600,
 		14: #acde61,
 		15: #f33131,
-		16: #4be5c3,
+		16: #fa5c65, //Principal
 		17: #d4c873,
 		18: #f0be43,
 		19: #502b46,
 		20: #672943,
 		21: #9dbc96,
 		22: #0096BB,
+);
+
+$defaultColors: (
+	1: #fa5c65,
+	2: #314a5b,
+	3: #fcfcfc,
+	4: #ffffff,
 );
 
 /* SOCIAL COLOR CODES */
@@ -155,7 +162,7 @@ $colors: (
 /*--------------------------------------------------------------
 # Color 1
 --------------------------------------------------------------*/
-$c: map-get($colors, 1);
+$c: map-get($defaultColors, 1);
 
 .ish-nav-container .ish-search-submit:hover,
 .ish-social-box > span a:hover
@@ -180,7 +187,7 @@ $c: map-get($colors, 1);
 /*--------------------------------------------------------------
 # Color 2
 --------------------------------------------------------------*/
-$c: map-get($colors, 2);
+$c: map-get($defaultColors, 2);
 
 /*@custom-selector :--heading h1, h2, h3, h4, h5, h6;
 :--heading{	color: $c; }*/
@@ -239,7 +246,7 @@ pre, hr,
 /*--------------------------------------------------------------
 # Color 3
 --------------------------------------------------------------*/
-$c: map-get($colors, 3);
+$c: map-get($defaultColors, 3);
 
 .ish-txt-color3 a,
 .ish-navigation a,
@@ -268,7 +275,7 @@ header .site-branding span
 /*--------------------------------------------------------------
 # Color 4
 --------------------------------------------------------------*/
-$c: map-get($colors, 4);
+$c: map-get($defaultColors, 4);
 
 mark,
 .ish-sc-accordion[class*='ish-color'] dt,

@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <footer id="colophon" className="site-footer">
-		<div className="ish-container-fluid ish-bg-color2">
+		<div className="ish-container-fluid" style={{backgroundColor: '#314a5b'}}>
 			<div className="ish-container-inner">
 				<div className="ish-row">
 

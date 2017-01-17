@@ -1,6 +1,9 @@
+import { FETCH_POSTS, FETCH_POST } from '../actions/types';
+
 const INITIAL_STATE = {
 	all: [],
-	selected: null
+	selected: null,
+	loading: null
 };
 
 export default ( state = INITIAL_STATE, action ) => {
@@ -8,9 +11,9 @@ export default ( state = INITIAL_STATE, action ) => {
 	console.log(action);
 
 	switch(action.type) {
-		case 'FETCH_POSTS':
+		case FETCH_POSTS:
 			return { ...state, all: action.payload }
-		case 'FETCH_POST':
+		case FETCH_POST:
 			return { ...state, selected: action.payload }
 		default:
 			return state;

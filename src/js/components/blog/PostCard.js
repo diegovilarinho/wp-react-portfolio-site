@@ -1,15 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import moment from 'moment';
 import 'moment/locale/pt-br';
+
 import PostFeaturedImage from './PostFeaturedImage';
 
 class PostCard extends React.Component {
 
 	render() {
-		const { postUpdateDate, postCategory, 
-		featuredImageUrl, featuredImageAlt, 
-		postLink, postTitle, postExcerpt } = this.props;
+		const { 
+			postUpdateDate, 
+			postCategoryId,
+			postCategoryName,
+			postCategoryColor,
+			featuredImageUrl, 
+			featuredImageAlt, 
+			postLink, 
+			postTitle, 
+			postExcerpt 
+		} = this.props;
 
 		const lasUpdateDate = moment(postUpdateDate).format('DD MMM, YYYY');
 
@@ -22,10 +33,25 @@ class PostCard extends React.Component {
 										/>;
 		}
 
+		const borderStyle = {
+			borderColor: postCategoryColor
+		}
+		const categoryStyle = {
+			fontSize: '1em',
+			fontWeight: '700',
+			paddingTop: '3px',
+			paddingBottom: '3px',
+			paddingLeft: '10px',
+			paddingRight: '10px',
+			color: '#fff',
+			backgroundColor: postCategoryColor
+
+		}
+		const classes = 'ish-item ish-color' + postCategoryId;
+
 		return (
-			<div className="ish-item ish-color9">
-			
-				<div className="post-card__content" style={styles.postCardContent}>
+			<div className={classes}>
+				<div className="post-card__content" style={borderStyle}>
 					{postFeaturedImageComponent}
 					<div className="ish-blog-post-title">
 						<h4><Link to={postLink} className="ish-underline">{postTitle}</Link></h4>
@@ -33,8 +59,7 @@ class PostCard extends React.Component {
 					<div className="ish-row">
 						<div className="ish-blog-post-details ish-col-xs-12 ish-col-sm-4">
 							<div>{lasUpdateDate}</div>
-							<div className="ish-label">em</div>
-							<div><a href="#" className="ish-underline">{postCategory}</a></div>
+							<div><Link to="#" className="ish-underline" style={categoryStyle}>{postCategoryName}</Link></div>
 							<div className="ish-read-more">
 								<Link to={postLink} className="ish-underline ish-underline-visible">Leia mais</Link>
 							</div>
@@ -48,12 +73,5 @@ class PostCard extends React.Component {
 		);
 	}
 }
-
-const styles = {
-	postCardContent: { 
-		borderColor: '#bbdd00', 
-	}
-}
-
 
 export default PostCard;

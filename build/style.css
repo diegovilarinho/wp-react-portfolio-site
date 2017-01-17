@@ -3611,67 +3611,67 @@ header .ish-tagline-widget {
 # Colors Classes - Text & Background
 --------------------------------------------------------------*/
 .ish-txt-color1 {
-  color: #f3317a;
+  color: #fa5c65;
 }
 
 .ish-bg-color1 {
-  background-color: #f3317a;
+  background-color: #fa5c65;
 }
 
 .ish-txt-color2 {
-  color: #515151;
+  color: #eded00;
 }
 
 .ish-bg-color2 {
-  background-color: #515151;
+  background-color: #eded00;
 }
 
 .ish-txt-color3 {
-  color: #fcfcfc;
+  color: #314a5b;
 }
 
 .ish-bg-color3 {
-  background-color: #fcfcfc;
+  background-color: #314a5b;
 }
 
 .ish-txt-color4 {
-  color: #ffffff;
+  color: #0568bf;
 }
 
 .ish-bg-color4 {
-  background-color: #ffffff;
+  background-color: #0568bf;
 }
 
 .ish-txt-color5 {
-  color: #7cd3ce;
+  color: #ef6300;
 }
 
 .ish-bg-color5 {
-  background-color: #7cd3ce;
+  background-color: #ef6300;
 }
 
 .ish-txt-color6 {
-  color: #1cbbe3;
+  color: #59d600;
 }
 
 .ish-bg-color6 {
-  background-color: #1cbbe3;
+  background-color: #59d600;
 }
 
 .ish-txt-color7 {
-  color: #c2bcb5;
+  color: #8400ea;
 }
 
 .ish-bg-color7 {
-  background-color: #c2bcb5;
+  background-color: #8400ea;
 }
 
 .ish-txt-color8 {
-  color: #5dc4be;
+  color: #4BE5C3;
 }
 
 .ish-bg-color8 {
-  background-color: #5dc4be;
+  background-color: #4BE5C3;
 }
 
 .ish-txt-color9 {
@@ -3731,11 +3731,11 @@ header .ish-tagline-widget {
 }
 
 .ish-txt-color16 {
-  color: #4be5c3;
+  color: #fa5c65;
 }
 
 .ish-bg-color16 {
-  background-color: #4be5c3;
+  background-color: #fa5c65;
 }
 
 .ish-txt-color17 {
@@ -3799,7 +3799,7 @@ header .ish-tagline-widget {
 .ish-color1 .comment-respond input.submit,
 .ish-color1 .ish-post-navigation a:hover span:before,
 .ish-color1 .ish-blurred-overlay {
-  background-color: #f3317a;
+  background-color: #fa5c65;
 }
 
 .ish-sc-element.ish-txt-color1 a,
@@ -3810,7 +3810,7 @@ header .ish-tagline-widget {
 .ish-color1 .comments-title,
 .ish-color1 .comment-reply-title,
 header .site-branding span.ish-txt-color1 {
-  color: #f3317a;
+  color: #fa5c65;
 }
 
 .ish-sc-accordion.ish-color1 dt,
@@ -3819,7 +3819,7 @@ header .site-branding span.ish-txt-color1 {
 .ish-sc-toggle.ish-color1 dd,
 .ish-sc-tabs.ish-color1 .ish-tabs-menu .ish-active-item,
 .ish-sc-tabs.ish-color1 .ish-tabs {
-  border-color: #f3317a;
+  border-color: #fa5c65;
 }
 
 .ish-sc-button:hover.ish-bg-color1,
@@ -3827,16 +3827,16 @@ header .site-branding span.ish-txt-color1 {
 .ish-sc-toggle.ish-color1 dt:hover,
 .ish-sc-tabs.ish-color1 .ish-tabs-menu li:hover,
 .ish-color1 .ish-sidebar button:hover {
-  background-color: #f779a9;
+  background-color: #fca6ab;
 }
 
 .ish-color1 .comment-respond input.submit:hover {
-  background-color: #cc0c54;
+  background-color: #f8121f;
 }
 
 .ish-txt-color1 a:hover,
 a:hover.ish-txt-color1 {
-  color: #f779a9;
+  color: #fca6ab;
 }
 
 .ish-sc-accordion.ish-color1 dt:hover,
@@ -3844,7 +3844,7 @@ a:hover.ish-txt-color1 {
 .ish-sc-toggle.ish-color1 dt:hover,
 .ish-sc-toggle.ish-color1 dt:hover + dd,
 .ish-sc-tabs.ish-color1 .ish-tabs-menu .ish-active-item:hover {
-  border-color: #f779a9;
+  border-color: #fca6ab;
 }
 
 .ish-color2 .ish-sticky-on .ish-logo-container .ish-logo-box,
@@ -3865,7 +3865,7 @@ a:hover.ish-txt-color1 {
 .ish-color2 .comment-respond input.submit,
 .ish-color2 .ish-post-navigation a:hover span:before,
 .ish-color2 .ish-blurred-overlay {
-  background-color: #515151;
+  background-color: #eded00;
 }
 
 .ish-sc-element.ish-txt-color2 a,
@@ -3876,7 +3876,7 @@ a:hover.ish-txt-color1 {
 .ish-color2 .comments-title,
 .ish-color2 .comment-reply-title,
 header .site-branding span.ish-txt-color2 {
-  color: #515151;
+  color: #eded00;
 }
 
 .ish-sc-accordion.ish-color2 dt,
@@ -3885,7 +3885,7 @@ header .site-branding span.ish-txt-color2 {
 .ish-sc-toggle.ish-color2 dd,
 .ish-sc-tabs.ish-color2 .ish-tabs-menu .ish-active-item,
 .ish-sc-tabs.ish-color2 .ish-tabs {
-  border-color: #515151;
+  border-color: #eded00;
 }
 
 .ish-sc-button:hover.ish-bg-color2,
@@ -3893,16 +3893,16 @@ header .site-branding span.ish-txt-color2 {
 .ish-sc-toggle.ish-color2 dt:hover,
 .ish-sc-tabs.ish-color2 .ish-tabs-menu li:hover,
 .ish-color2 .ish-sidebar button:hover {
-  background-color: #777777;
+  background-color: #ffff3b;
 }
 
 .ish-color2 .comment-respond input.submit:hover {
-  background-color: #2b2b2b;
+  background-color: #a1a100;
 }
 
 .ish-txt-color2 a:hover,
 a:hover.ish-txt-color2 {
-  color: #777777;
+  color: #ffff3b;
 }
 
 .ish-sc-accordion.ish-color2 dt:hover,
@@ -3910,7 +3910,7 @@ a:hover.ish-txt-color2 {
 .ish-sc-toggle.ish-color2 dt:hover,
 .ish-sc-toggle.ish-color2 dt:hover + dd,
 .ish-sc-tabs.ish-color2 .ish-tabs-menu .ish-active-item:hover {
-  border-color: #777777;
+  border-color: #ffff3b;
 }
 
 .ish-color3 .ish-sticky-on .ish-logo-container .ish-logo-box,
@@ -3931,7 +3931,7 @@ a:hover.ish-txt-color2 {
 .ish-color3 .comment-respond input.submit,
 .ish-color3 .ish-post-navigation a:hover span:before,
 .ish-color3 .ish-blurred-overlay {
-  background-color: #fcfcfc;
+  background-color: #314a5b;
 }
 
 .ish-sc-element.ish-txt-color3 a,
@@ -3942,7 +3942,7 @@ a:hover.ish-txt-color2 {
 .ish-color3 .comments-title,
 .ish-color3 .comment-reply-title,
 header .site-branding span.ish-txt-color3 {
-  color: #fcfcfc;
+  color: #314a5b;
 }
 
 .ish-sc-accordion.ish-color3 dt,
@@ -3951,7 +3951,7 @@ header .site-branding span.ish-txt-color3 {
 .ish-sc-toggle.ish-color3 dd,
 .ish-sc-tabs.ish-color3 .ish-tabs-menu .ish-active-item,
 .ish-sc-tabs.ish-color3 .ish-tabs {
-  border-color: #fcfcfc;
+  border-color: #314a5b;
 }
 
 .ish-sc-button:hover.ish-bg-color3,
@@ -3959,16 +3959,16 @@ header .site-branding span.ish-txt-color3 {
 .ish-sc-toggle.ish-color3 dt:hover,
 .ish-sc-tabs.ish-color3 .ish-tabs-menu li:hover,
 .ish-color3 .ish-sidebar button:hover {
-  background-color: white;
+  background-color: #4c728d;
 }
 
 .ish-color3 .comment-respond input.submit:hover {
-  background-color: #d6d6d6;
+  background-color: #162229;
 }
 
 .ish-txt-color3 a:hover,
 a:hover.ish-txt-color3 {
-  color: white;
+  color: #4c728d;
 }
 
 .ish-sc-accordion.ish-color3 dt:hover,
@@ -3976,7 +3976,7 @@ a:hover.ish-txt-color3 {
 .ish-sc-toggle.ish-color3 dt:hover,
 .ish-sc-toggle.ish-color3 dt:hover + dd,
 .ish-sc-tabs.ish-color3 .ish-tabs-menu .ish-active-item:hover {
-  border-color: white;
+  border-color: #4c728d;
 }
 
 .ish-color4 .ish-sticky-on .ish-logo-container .ish-logo-box,
@@ -3997,7 +3997,7 @@ a:hover.ish-txt-color3 {
 .ish-color4 .comment-respond input.submit,
 .ish-color4 .ish-post-navigation a:hover span:before,
 .ish-color4 .ish-blurred-overlay {
-  background-color: #ffffff;
+  background-color: #0568bf;
 }
 
 .ish-sc-element.ish-txt-color4 a,
@@ -4008,7 +4008,7 @@ a:hover.ish-txt-color3 {
 .ish-color4 .comments-title,
 .ish-color4 .comment-reply-title,
 header .site-branding span.ish-txt-color4 {
-  color: #ffffff;
+  color: #0568bf;
 }
 
 .ish-sc-accordion.ish-color4 dt,
@@ -4017,7 +4017,7 @@ header .site-branding span.ish-txt-color4 {
 .ish-sc-toggle.ish-color4 dd,
 .ish-sc-tabs.ish-color4 .ish-tabs-menu .ish-active-item,
 .ish-sc-tabs.ish-color4 .ish-tabs {
-  border-color: #ffffff;
+  border-color: #0568bf;
 }
 
 .ish-sc-button:hover.ish-bg-color4,
@@ -4025,16 +4025,16 @@ header .site-branding span.ish-txt-color4 {
 .ish-sc-toggle.ish-color4 dt:hover,
 .ish-sc-tabs.ish-color4 .ish-tabs-menu li:hover,
 .ish-color4 .ish-sidebar button:hover {
-  background-color: white;
+  background-color: #1890f9;
 }
 
 .ish-color4 .comment-respond input.submit:hover {
-  background-color: #d9d9d9;
+  background-color: #033f74;
 }
 
 .ish-txt-color4 a:hover,
 a:hover.ish-txt-color4 {
-  color: white;
+  color: #1890f9;
 }
 
 .ish-sc-accordion.ish-color4 dt:hover,
@@ -4042,7 +4042,7 @@ a:hover.ish-txt-color4 {
 .ish-sc-toggle.ish-color4 dt:hover,
 .ish-sc-toggle.ish-color4 dt:hover + dd,
 .ish-sc-tabs.ish-color4 .ish-tabs-menu .ish-active-item:hover {
-  border-color: white;
+  border-color: #1890f9;
 }
 
 .ish-color5 .ish-sticky-on .ish-logo-container .ish-logo-box,
@@ -4063,7 +4063,7 @@ a:hover.ish-txt-color4 {
 .ish-color5 .comment-respond input.submit,
 .ish-color5 .ish-post-navigation a:hover span:before,
 .ish-color5 .ish-blurred-overlay {
-  background-color: #7cd3ce;
+  background-color: #ef6300;
 }
 
 .ish-sc-element.ish-txt-color5 a,
@@ -4074,7 +4074,7 @@ a:hover.ish-txt-color4 {
 .ish-color5 .comments-title,
 .ish-color5 .comment-reply-title,
 header .site-branding span.ish-txt-color5 {
-  color: #7cd3ce;
+  color: #ef6300;
 }
 
 .ish-sc-accordion.ish-color5 dt,
@@ -4083,7 +4083,7 @@ header .site-branding span.ish-txt-color5 {
 .ish-sc-toggle.ish-color5 dd,
 .ish-sc-tabs.ish-color5 .ish-tabs-menu .ish-active-item,
 .ish-sc-tabs.ish-color5 .ish-tabs {
-  border-color: #7cd3ce;
+  border-color: #ef6300;
 }
 
 .ish-sc-button:hover.ish-bg-color5,
@@ -4091,16 +4091,16 @@ header .site-branding span.ish-txt-color5 {
 .ish-sc-toggle.ish-color5 dt:hover,
 .ish-sc-tabs.ish-color5 .ish-tabs-menu li:hover,
 .ish-color5 .ish-sidebar button:hover {
-  background-color: #b5e6e3;
+  background-color: #ff8d3d;
 }
 
 .ish-color5 .comment-respond input.submit:hover {
-  background-color: #43c0b9;
+  background-color: #a34300;
 }
 
 .ish-txt-color5 a:hover,
 a:hover.ish-txt-color5 {
-  color: #b5e6e3;
+  color: #ff8d3d;
 }
 
 .ish-sc-accordion.ish-color5 dt:hover,
@@ -4108,7 +4108,7 @@ a:hover.ish-txt-color5 {
 .ish-sc-toggle.ish-color5 dt:hover,
 .ish-sc-toggle.ish-color5 dt:hover + dd,
 .ish-sc-tabs.ish-color5 .ish-tabs-menu .ish-active-item:hover {
-  border-color: #b5e6e3;
+  border-color: #ff8d3d;
 }
 
 .ish-color6 .ish-sticky-on .ish-logo-container .ish-logo-box,
@@ -4129,7 +4129,7 @@ a:hover.ish-txt-color5 {
 .ish-color6 .comment-respond input.submit,
 .ish-color6 .ish-post-navigation a:hover span:before,
 .ish-color6 .ish-blurred-overlay {
-  background-color: #1cbbe3;
+  background-color: #59d600;
 }
 
 .ish-sc-element.ish-txt-color6 a,
@@ -4140,7 +4140,7 @@ a:hover.ish-txt-color5 {
 .ish-color6 .comments-title,
 .ish-color6 .comment-reply-title,
 header .site-branding span.ish-txt-color6 {
-  color: #1cbbe3;
+  color: #59d600;
 }
 
 .ish-sc-accordion.ish-color6 dt,
@@ -4149,7 +4149,7 @@ header .site-branding span.ish-txt-color6 {
 .ish-sc-toggle.ish-color6 dd,
 .ish-sc-tabs.ish-color6 .ish-tabs-menu .ish-active-item,
 .ish-sc-tabs.ish-color6 .ish-tabs {
-  border-color: #1cbbe3;
+  border-color: #59d600;
 }
 
 .ish-sc-button:hover.ish-bg-color6,
@@ -4157,16 +4157,16 @@ header .site-branding span.ish-txt-color6 {
 .ish-sc-toggle.ish-color6 dt:hover,
 .ish-sc-tabs.ish-color6 .ish-tabs-menu li:hover,
 .ish-color6 .ish-sidebar button:hover {
-  background-color: #60cfeb;
+  background-color: #7fff24;
 }
 
 .ish-color6 .comment-respond input.submit:hover {
-  background-color: #14839f;
+  background-color: #398a00;
 }
 
 .ish-txt-color6 a:hover,
 a:hover.ish-txt-color6 {
-  color: #60cfeb;
+  color: #7fff24;
 }
 
 .ish-sc-accordion.ish-color6 dt:hover,
@@ -4174,7 +4174,7 @@ a:hover.ish-txt-color6 {
 .ish-sc-toggle.ish-color6 dt:hover,
 .ish-sc-toggle.ish-color6 dt:hover + dd,
 .ish-sc-tabs.ish-color6 .ish-tabs-menu .ish-active-item:hover {
-  border-color: #60cfeb;
+  border-color: #7fff24;
 }
 
 .ish-color7 .ish-sticky-on .ish-logo-container .ish-logo-box,
@@ -4195,7 +4195,7 @@ a:hover.ish-txt-color6 {
 .ish-color7 .comment-respond input.submit,
 .ish-color7 .ish-post-navigation a:hover span:before,
 .ish-color7 .ish-blurred-overlay {
-  background-color: #c2bcb5;
+  background-color: #8400ea;
 }
 
 .ish-sc-element.ish-txt-color7 a,
@@ -4206,7 +4206,7 @@ a:hover.ish-txt-color6 {
 .ish-color7 .comments-title,
 .ish-color7 .comment-reply-title,
 header .site-branding span.ish-txt-color7 {
-  color: #c2bcb5;
+  color: #8400ea;
 }
 
 .ish-sc-accordion.ish-color7 dt,
@@ -4215,7 +4215,7 @@ header .site-branding span.ish-txt-color7 {
 .ish-sc-toggle.ish-color7 dd,
 .ish-sc-tabs.ish-color7 .ish-tabs-menu .ish-active-item,
 .ish-sc-tabs.ish-color7 .ish-tabs {
-  border-color: #c2bcb5;
+  border-color: #8400ea;
 }
 
 .ish-sc-button:hover.ish-bg-color7,
@@ -4223,16 +4223,16 @@ header .site-branding span.ish-txt-color7 {
 .ish-sc-toggle.ish-color7 dt:hover,
 .ish-sc-tabs.ish-color7 .ish-tabs-menu li:hover,
 .ish-color7 .ish-sidebar button:hover {
-  background-color: #e5e2df;
+  background-color: #a838ff;
 }
 
 .ish-color7 .comment-respond input.submit:hover {
-  background-color: #9f968b;
+  background-color: #59009e;
 }
 
 .ish-txt-color7 a:hover,
 a:hover.ish-txt-color7 {
-  color: #e5e2df;
+  color: #a838ff;
 }
 
 .ish-sc-accordion.ish-color7 dt:hover,
@@ -4240,7 +4240,7 @@ a:hover.ish-txt-color7 {
 .ish-sc-toggle.ish-color7 dt:hover,
 .ish-sc-toggle.ish-color7 dt:hover + dd,
 .ish-sc-tabs.ish-color7 .ish-tabs-menu .ish-active-item:hover {
-  border-color: #e5e2df;
+  border-color: #a838ff;
 }
 
 .ish-color8 .ish-sticky-on .ish-logo-container .ish-logo-box,
@@ -4261,7 +4261,7 @@ a:hover.ish-txt-color7 {
 .ish-color8 .comment-respond input.submit,
 .ish-color8 .ish-post-navigation a:hover span:before,
 .ish-color8 .ish-blurred-overlay {
-  background-color: #5dc4be;
+  background-color: #4BE5C3;
 }
 
 .ish-sc-element.ish-txt-color8 a,
@@ -4272,7 +4272,7 @@ a:hover.ish-txt-color7 {
 .ish-color8 .comments-title,
 .ish-color8 .comment-reply-title,
 header .site-branding span.ish-txt-color8 {
-  color: #5dc4be;
+  color: #4BE5C3;
 }
 
 .ish-sc-accordion.ish-color8 dt,
@@ -4281,7 +4281,7 @@ header .site-branding span.ish-txt-color8 {
 .ish-sc-toggle.ish-color8 dd,
 .ish-sc-tabs.ish-color8 .ish-tabs-menu .ish-active-item,
 .ish-sc-tabs.ish-color8 .ish-tabs {
-  border-color: #5dc4be;
+  border-color: #4BE5C3;
 }
 
 .ish-sc-button:hover.ish-bg-color8,
@@ -4289,16 +4289,16 @@ header .site-branding span.ish-txt-color8 {
 .ish-sc-toggle.ish-color8 dt:hover,
 .ish-sc-tabs.ish-color8 .ish-tabs-menu li:hover,
 .ish-color8 .ish-sidebar button:hover {
-  background-color: #95d8d5;
+  background-color: #8eefd9;
 }
 
 .ish-color8 .comment-respond input.submit:hover {
-  background-color: #399c96;
+  background-color: #1dc7a1;
 }
 
 .ish-txt-color8 a:hover,
 a:hover.ish-txt-color8 {
-  color: #95d8d5;
+  color: #8eefd9;
 }
 
 .ish-sc-accordion.ish-color8 dt:hover,
@@ -4306,7 +4306,7 @@ a:hover.ish-txt-color8 {
 .ish-sc-toggle.ish-color8 dt:hover,
 .ish-sc-toggle.ish-color8 dt:hover + dd,
 .ish-sc-tabs.ish-color8 .ish-tabs-menu .ish-active-item:hover {
-  border-color: #95d8d5;
+  border-color: #8eefd9;
 }
 
 .ish-color9 .ish-sticky-on .ish-logo-container .ish-logo-box,
@@ -4789,7 +4789,7 @@ a:hover.ish-txt-color15 {
 .ish-color16 .comment-respond input.submit,
 .ish-color16 .ish-post-navigation a:hover span:before,
 .ish-color16 .ish-blurred-overlay {
-  background-color: #4be5c3;
+  background-color: #fa5c65;
 }
 
 .ish-sc-element.ish-txt-color16 a,
@@ -4800,7 +4800,7 @@ a:hover.ish-txt-color15 {
 .ish-color16 .comments-title,
 .ish-color16 .comment-reply-title,
 header .site-branding span.ish-txt-color16 {
-  color: #4be5c3;
+  color: #fa5c65;
 }
 
 .ish-sc-accordion.ish-color16 dt,
@@ -4809,7 +4809,7 @@ header .site-branding span.ish-txt-color16 {
 .ish-sc-toggle.ish-color16 dd,
 .ish-sc-tabs.ish-color16 .ish-tabs-menu .ish-active-item,
 .ish-sc-tabs.ish-color16 .ish-tabs {
-  border-color: #4be5c3;
+  border-color: #fa5c65;
 }
 
 .ish-sc-button:hover.ish-bg-color16,
@@ -4817,16 +4817,16 @@ header .site-branding span.ish-txt-color16 {
 .ish-sc-toggle.ish-color16 dt:hover,
 .ish-sc-tabs.ish-color16 .ish-tabs-menu li:hover,
 .ish-color16 .ish-sidebar button:hover {
-  background-color: #8eefd9;
+  background-color: #fca6ab;
 }
 
 .ish-color16 .comment-respond input.submit:hover {
-  background-color: #1dc7a1;
+  background-color: #f8121f;
 }
 
 .ish-txt-color16 a:hover,
 a:hover.ish-txt-color16 {
-  color: #8eefd9;
+  color: #fca6ab;
 }
 
 .ish-sc-accordion.ish-color16 dt:hover,
@@ -4834,7 +4834,7 @@ a:hover.ish-txt-color16 {
 .ish-sc-toggle.ish-color16 dt:hover,
 .ish-sc-toggle.ish-color16 dt:hover + dd,
 .ish-sc-tabs.ish-color16 .ish-tabs-menu .ish-active-item:hover {
-  border-color: #8eefd9;
+  border-color: #fca6ab;
 }
 
 .ish-color17 .ish-sticky-on .ish-logo-container .ish-logo-box,
@@ -5172,7 +5172,7 @@ a:hover.ish-txt-color21 {
 --------------------------------------------------------------*/
 .ish-nav-container .ish-search-submit:hover,
 .ish-social-box > span a:hover {
-  color: #f3317a;
+  color: #fa5c65;
 }
 
 .ish-sticky-on .ish-logo-container .ish-logo-box,
@@ -5185,7 +5185,7 @@ a:hover.ish-txt-color21 {
 .ish-back-to-top a:hover span:before,
 .ish-footer .ish-underline:before,
 .ish-navigation .ish-underline:before {
-  background-color: #f3317a;
+  background-color: #fa5c65;
 }
 
 /*--------------------------------------------------------------
@@ -5199,7 +5199,7 @@ a,
 form input::-webkit-input-placeholder,
 form textarea::-webkit-input-placeholder,
 #content .ish-social-box a {
-  color: #515151;
+  color: #314a5b;
 }
 html,
 a,
@@ -5207,7 +5207,7 @@ a,
 form input::-moz-placeholder,
 form textarea::-moz-placeholder,
 #content .ish-social-box a {
-  color: #515151;
+  color: #314a5b;
 }
 html,
 a,
@@ -5215,7 +5215,7 @@ a,
 form input:-ms-input-placeholder,
 form textarea:-ms-input-placeholder,
 #content .ish-social-box a {
-  color: #515151;
+  color: #314a5b;
 }
 html,
 a,
@@ -5223,7 +5223,7 @@ a,
 form input::placeholder,
 form textarea::placeholder,
 #content .ish-social-box a {
-  color: #515151;
+  color: #314a5b;
 }
 
 .ish-navigation .ish-nav-close,
@@ -5235,7 +5235,7 @@ form textarea::placeholder,
 .ish-widget-element input::-webkit-input-placeholder,
 .ish-widget-element textarea::-webkit-input-placeholder,
 #ish-contact-form button[type="submit"]:hover {
-  color: #a8a8a8;
+  color: #7fa2ba;
 }
 
 .ish-navigation .ish-nav-close,
@@ -5247,7 +5247,7 @@ form textarea::placeholder,
 .ish-widget-element input::-moz-placeholder,
 .ish-widget-element textarea::-moz-placeholder,
 #ish-contact-form button[type="submit"]:hover {
-  color: #a8a8a8;
+  color: #7fa2ba;
 }
 
 .ish-navigation .ish-nav-close,
@@ -5259,7 +5259,7 @@ form textarea::placeholder,
 .ish-widget-element input:-ms-input-placeholder,
 .ish-widget-element textarea:-ms-input-placeholder,
 #ish-contact-form button[type="submit"]:hover {
-  color: #a8a8a8;
+  color: #7fa2ba;
 }
 
 .ish-navigation .ish-nav-close,
@@ -5271,7 +5271,7 @@ form textarea::placeholder,
 .ish-widget-element input::placeholder,
 .ish-widget-element textarea::placeholder,
 #ish-contact-form button[type="submit"]:hover {
-  color: #a8a8a8;
+  color: #7fa2ba;
 }
 
 .ish-navigation .ish-nav-container-bg,
@@ -5281,21 +5281,21 @@ form textarea::placeholder,
 .ish-navigation .ish-nav-close,
 pre, hr,
 .ish-blurred-overlay {
-  background-color: #515151;
+  background-color: #314a5b;
 }
 
 .comment-respond input,
 .comment-respond textarea {
-  background-color: #777777;
+  background-color: #4c728d;
 }
 
 .comment-respond input:hover,
 .comment-respond textarea:hover {
-  background-color: #848484;
+  background-color: #55809d;
 }
 
 .ish-sidebar {
-  border-color: #777777;
+  border-color: #4c728d;
 }
 
 /*--------------------------------------------------------------

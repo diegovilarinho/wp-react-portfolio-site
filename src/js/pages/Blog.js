@@ -22,16 +22,19 @@ class Blog extends React.Component {
 
 		if (posts == 0) {
 			return(
-				<h1>Carregando...</h1>	
+				<h1>Carregando...</h1>
 			);
 		}
 
 		const blogPosts = posts.map(post => {
+
 			return (
 				<PostCard 
 					key={post.id}
 					postUpdateDate={post.modified}
-					postCategory={post.cats[0].cat_name}
+					postCategoryId={post.cats[0].term_id}
+					postCategoryName={post.cats[0].cat_name} 
+					postCategoryColor={post.post_category_color} 
 					featuredImageUrl={post.featured_image_src}
 					featuredImageAlt={post.featured_image_alt}
 					postLink={post.link}
@@ -50,7 +53,9 @@ class Blog extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-	return { posts: state.posts.all };
+	return { 
+		posts: state.posts.all,
+	};
 };
 
 const matchDispatchToProps = (dispatch) => {
