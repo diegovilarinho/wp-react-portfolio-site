@@ -14,9 +14,15 @@ class Blog extends React.Component {
 	render() {
 		const { posts } = this.props;
 
-		if(!posts) {
+		if (Object.keys(posts).length > 0) {
+			setTimeout(() => {
+				organizeBlogColumns();
+			}, 1);
+		}
+
+		if (posts == 0) {
 			return(
-				<h1>Carregando...</h1>
+				<h1>Carregando...</h1>	
 			);
 		}
 

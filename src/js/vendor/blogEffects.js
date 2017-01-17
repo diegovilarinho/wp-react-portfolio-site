@@ -33,7 +33,7 @@ let organizeBlogColumns = function() {
 				});
 			}
 		}
-	} else{
+	} else {
 		if ( ishMacyActive ) {
 			Macy.remove();
 			ishBlogAnimation._remove();
