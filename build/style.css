@@ -6131,10 +6131,10 @@ form textarea.invalid {
     margin-top: 50px;
   }
   .ish-blog-masonry .ish-item:nth-child(2n-1) {
-    padding-right: 40px;
+    padding-right: 10px;
   }
   .ish-blog-masonry .ish-item:nth-child(2n) {
-    padding-left: 40px;
+    padding-left: 10px;
   }
   .ish-blog-classic .ish-item,
   .ish-blog-classic .ish-item:last-child {
@@ -6444,4 +6444,12 @@ form textarea.invalid {
   font-size: 1.8em;
   font-weight: 700;
   padding: 1rem;
+}
+
+.ish-blog .ish-item .post-card__content {
+  border: 2px solid #515151;
+  border-radius: 5px;
+  padding: 0 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
