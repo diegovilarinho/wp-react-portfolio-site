@@ -1,0 +1,228 @@
+/*--------------------------------------------------------------
+ TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Vars
+# Mixins
+# Extend
+# Animations
+# General
+# Shortcodes
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Vars
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Mixins
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Extend
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Animations
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Shortcodes
+--------------------------------------------------------------*/
+a.ish-sc-element,
+.ish-sc-element a
+{
+	transition: $NAV_TRANSITION;
+}
+
+/* Leaning columns */
+.ish-row
+{
+	&.ish-col-leaning-2
+	{
+		> *[class*="ish-col-"]:nth-child(1)
+		{
+			margin-top: 86px;
+		}
+	}
+
+	&.ish-col-leaning-3
+	{
+		> *[class*="ish-col-"]:nth-child(1)
+		{
+			margin-top: 114px;
+		}
+
+		> *[class*="ish-col-"]:nth-child(2)
+		{
+			margin-top: 57px;
+		}
+	}
+
+	&.ish-col-leaning-4
+	{
+		> *[class*="ish-col-"]:nth-child(1)
+		{
+			margin-top: 129px;
+		}
+
+		> *[class*="ish-col-"]:nth-child(2)
+		{
+			margin-top: 86px;
+		}
+
+		> *[class*="ish-col-"]:nth-child(3)
+		{
+			margin-top: 43px;
+		}
+	}
+}
+
+.ish-sc-button
+{
+	padding: 20px;
+	border-radius: 3px;
+	display: inline-block;
+	text-decoration: none;
+
+	&.ish-btn-small
+	{
+		padding: 10px;
+	}
+
+	&.ish-btn-medium
+	{
+		padding: 14px 20px;
+	}
+
+	&.ish-btn-large
+	{
+		padding: 20px 30px;
+	}
+}
+
+.ish-sc-icon
+{
+	a
+	{
+		text-decoration: none;
+	}
+}
+
+.ish-sc-accordion,
+.ish-sc-toggle,
+.ish-sc-tabs
+{
+	H1, H2, H3, H4, H5, H6,
+	p,
+	ul,
+	ol,
+	hr,
+	blockquote,
+	.ish-sc-element
+	{
+		margin: 20px 0;
+	}
+}
+
+.ish-sc-accordion,
+.ish-sc-toggle
+{
+	dt,
+	dd
+	{
+		border: 1px solid;
+
+		a
+		{
+			display: block;
+			padding: 10px;
+			text-decoration: none;
+		}
+	}
+
+	dt
+	{
+		margin-top: 10px;
+		transition: $NAV_TRANSITION;
+		border-radius: 3px;
+
+		&:first-of-type
+		{
+			margin-top: 0;
+		}
+
+		&.ish-active-item
+		{
+			border-radius: 3px 3px 0 0;
+
+			i
+			{
+				transform: rotate(90deg);
+				display: inline-block;
+				transform-origin: 50% 50%;
+			}
+		}
+	}
+
+	dd
+	{
+		display: none;
+		padding: 10px 30px;
+		margin: 0 0 10px 0;
+		border-radius: 0 0 3px 3px;
+	}
+}
+
+.ish-sc-tabs
+{
+	.ish-tabs-menu
+	{
+		-webkit-padding-start: 0;
+		margin: 0;
+		padding: 0;
+		display: block;
+
+		li
+		{
+			display: inline-block;
+			float: left;
+			border: solid 1px;
+			border-color: rgba(255, 255, 255, 0);
+			border-radius: 3px 3px 0 0;
+			transition: $NAV_TRANSITION;
+
+			a
+			{
+				padding: 10px 20px;
+				text-decoration: none;
+				display: inline-block;
+			}
+		}
+	}
+
+	.ish-tabs
+	{
+		display: inline-block;
+		border: solid 1px;
+		border-radius: 0 3px 3px 3px;
+
+		> div
+		{
+			display: none;
+
+			&:first-child
+			{
+				display: block;
+			}
+		}
+
+		.ish-tab-content
+		{
+			padding: 10px 30px;
+		}
+	}
+}

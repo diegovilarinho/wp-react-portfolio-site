@@ -1,0 +1,309 @@
+/*--------------------------------------------------------------
+ TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Colors
+# Colors Classes - Text & Background
+# Colors Loop - 1 ... N
+
+# Color 1
+# ...
+# Color N
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+$colors_count: 22;
+
+$colors: (
+		1: #f3317a,
+		2: #515151,
+		3: #fcfcfc,
+		4: #ffffff,
+		5: #7cd3ce,
+		6: #1cbbe3,
+		7: #c2bcb5,
+		8: #5dc4be,
+		9: #dd613b,
+		10: #a1744f,
+		11: #37bdb6,
+		12: #bda949,
+		13: #f3d600,
+		14: #acde61,
+		15: #f33131,
+		16: #4be5c3,
+		17: #d4c873,
+		18: #f0be43,
+		19: #502b46,
+		20: #672943,
+		21: #9dbc96,
+		22: #0096BB,
+);
+
+/* SOCIAL COLOR CODES */
+/*
+#3b5998 //Facebook Blue
+#00aced //Twitter Blue
+#007bb5 //Linkedin Blue
+#125688 //Instagram Blue
+#053eff //Behance Blue
+#dd4b39 //Google+ Red
+#ea4c89 //Dribbble Red
+#bb0000 //YouTube Red
+#cb2027 //Pinterest Red
+*/
+
+/* EDIT $colors_count VARIABLE TOO */
+
+/*--------------------------------------------------------------
+# Colors Classes - Text & Background
+--------------------------------------------------------------*/
+@for $i from 1 to $colors_count
+{
+	$c: map-get($colors, $i);
+	.ish-txt-color#{$i}
+	{
+		color: $c;
+	}
+	.ish-bg-color#{$i}
+	{
+		background-color: $c;
+	}
+}
+
+/*--------------------------------------------------------------
+# Colors Loop - 1 ... N
+--------------------------------------------------------------*/
+@for $i from 1 to $colors_count
+{
+	$c: map-get($colors, $i);
+
+	.ish-color#{$i} .ish-sticky-on .ish-logo-container .ish-logo-box,
+	.ish-color#{$i} .ish-sticky-on .ish-menu-container .ish-icon-nav,
+	.ish-sc-accordion.ish-color#{$i} dt,
+	.ish-sc-toggle.ish-color#{$i} dt,
+	.ish-sc-tabs.ish-color#{$i} .ish-active-item,
+	.ish-result.ish-color#{$i}:before,
+	.ish-blog .ish-color#{$i} .ish-underline:before,
+	.ish-color#{$i} .ish-underline:before,
+	.ish-color#{$i} .site-header .ish-container-fluid,
+	.ish-color#{$i} .site-header .ish-decor-container > div,
+	.ish-color#{$i} .site-header .ish-container-fluid.ish-bg-color#{$i},
+	.ish-color#{$i} .ish-sidebar input,
+	.ish-color#{$i} .ish-sidebar button,
+	.ish-color#{$i} blockquote:before,
+	.ish-color#{$i} blockquote:after,
+	.ish-color#{$i} .comment-respond input.submit,
+	.ish-color#{$i} .ish-post-navigation a:hover span:before,
+	.ish-color#{$i} .ish-blurred-overlay
+	{
+		background-color: $c;
+	}
+
+	.ish-sc-element.ish-txt-color#{$i} a,
+	.ish-result.ish-color#{$i} .ish-title a,
+	.ish-blog .ish-color#{$i} .ish-blog-post-title a,
+	.ish-color#{$i} .ish-sidebar .widget-title,
+	.ish-color#{$i} .ish-sidebar a:not(.ish-read-more, .time, .social-icon):hover,
+	.ish-color#{$i} .comments-title,
+	.ish-color#{$i} .comment-reply-title,
+	header .site-branding span.ish-txt-color#{$i}
+	{
+		color: $c;
+	}
+
+	.ish-sc-accordion.ish-color#{$i} dt,
+	.ish-sc-accordion.ish-color#{$i} dd,
+	.ish-sc-toggle.ish-color#{$i} dt,
+	.ish-sc-toggle.ish-color#{$i} dd,
+	.ish-sc-tabs.ish-color#{$i} .ish-tabs-menu .ish-active-item,
+	.ish-sc-tabs.ish-color#{$i} .ish-tabs
+	{
+		border-color: $c;
+	}
+
+	.ish-sc-button:hover.ish-bg-color#{$i},
+	.ish-sc-accordion.ish-color#{$i} dt:hover,
+	.ish-sc-toggle.ish-color#{$i} dt:hover,
+	.ish-sc-tabs.ish-color#{$i} .ish-tabs-menu li:hover,
+	.ish-color#{$i} .ish-sidebar button:hover
+	{
+		background-color: lighten($c, 15%);
+	}
+
+	.ish-color#{$i} .comment-respond input.submit:hover
+	{
+		background-color: darken($c, 15%);
+	}
+
+	.ish-txt-color#{$i} a:hover,
+	a:hover.ish-txt-color#{$i}
+	{
+		color: lighten($c, 15%);
+	}
+
+	.ish-sc-accordion.ish-color#{$i} dt:hover,
+	.ish-sc-accordion.ish-color#{$i} dt:hover + dd,
+	.ish-sc-toggle.ish-color#{$i} dt:hover,
+	.ish-sc-toggle.ish-color#{$i} dt:hover + dd,
+	.ish-sc-tabs.ish-color#{$i} .ish-tabs-menu .ish-active-item:hover
+	{
+		border-color: lighten($c, 15%);
+	}
+}
+
+/*--------------------------------------------------------------
+# Color 1
+--------------------------------------------------------------*/
+$c: map-get($colors, 1);
+
+.ish-nav-container .ish-search-submit:hover,
+.ish-social-box > span a:hover
+{
+	color: $c;
+}
+
+.ish-sticky-on .ish-logo-container .ish-logo-box,
+.ish-sticky-on .ish-menu-container .ish-icon-nav,
+.ish-navigation ul li.ish-active-item span:before,
+.ish-navigation ul li:hover > a span:before,
+.ish-page-numbers:hover,
+.ish-page-numbers.ish-next,
+.ish-footer a:hover:before,
+.ish-back-to-top a:hover span:before,
+.ish-footer .ish-underline:before,
+.ish-navigation .ish-underline:before
+{
+	background-color: $c;
+}
+
+/*--------------------------------------------------------------
+# Color 2
+--------------------------------------------------------------*/
+$c: map-get($colors, 2);
+
+/*@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+:--heading{	color: $c; }*/
+
+html,
+a,
+.ish-title,
+form input::placeholder,
+form textarea::placeholder,
+#content .ish-social-box a
+{
+	color: $c;
+}
+
+.ish-navigation .ish-nav-close,
+.ish-navigation ul ul a,
+.ish-navigation .ish-social-box a,
+.ish-footer,
+.ish-social-box > span a,
+#content .ish-social-box a:hover,
+.ish-widget-element input::placeholder,
+.ish-widget-element textarea::placeholder,
+#ish-contact-form button[type="submit"]:hover
+{
+	color: lighten($c, 34%);
+}
+
+.ish-navigation .ish-nav-container-bg,
+.ish-navigation .ish-nav-bg,
+.ish-page-numbers,
+.ish-page-numbers.ish-next:hover,
+.ish-navigation .ish-nav-close,
+pre, hr,
+.ish-blurred-overlay
+{
+	background-color: $c;
+}
+
+.comment-respond input,
+.comment-respond textarea
+{
+	background-color: lighten($c, 15%);
+}
+
+.comment-respond input:hover,
+.comment-respond textarea:hover
+{
+	background-color: lighten($c, 20%);
+}
+
+.ish-sidebar
+{
+	border-color: lighten($c, 15%);
+}
+
+/*--------------------------------------------------------------
+# Color 3
+--------------------------------------------------------------*/
+$c: map-get($colors, 3);
+
+.ish-txt-color3 a,
+.ish-navigation a,
+.ish-navigation,
+.ish-page-numbers,
+.ish-footer a,
+.ish-result:before,
+.ish-sc-button,
+.ish-sidebar .ish-widget-element input::placeholder,
+.ish-sidebar .ish-widget-element textarea::placeholder,
+pre,
+.comment-respond input,
+.comment-respond textarea,
+.comment-respond input::placeholder,
+.comment-respond textarea::placeholder,
+header .site-branding span
+{
+	color: $c;
+}
+
+.ish-portfolio-navigation a:hover span:before
+{
+	background-color: $c;
+}
+
+/*--------------------------------------------------------------
+# Color 4
+--------------------------------------------------------------*/
+$c: map-get($colors, 4);
+
+mark,
+.ish-sc-accordion[class*='ish-color'] dt,
+.ish-sc-accordion[class*='ish-color'] dt a,
+.ish-sc-toggle[class*='ish-color'] dt,
+.ish-sc-toggle[class*='ish-color'] dt a,
+.ish-sc-tabs[class*='ish-color'] .ish-tabs-menu .ish-active-item a,
+.ish-sc-tabs[class*='ish-color'] .ish-tabs-menu li:hover a,
+.ish-sidebar input,
+.ish-sidebar button
+{
+	color: $c;
+}
+
+/*--------------------------------------------------------------
+# Color 14
+--------------------------------------------------------------*/
+$c: map-get($colors, 14);
+
+mark
+{
+	background-color: $c;
+}
+
+/*--------------------------------------------------------------
+# Form colors
+--------------------------------------------------------------*/
+form input.invalid,
+form textarea.invalid
+{
+	border-top-color: #ff0000;
+}
+
+.required-error:before,
+.required-error:after
+{
+	color: #ff0000;
+}

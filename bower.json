@@ -1,0 +1,21 @@
+{
+  "name": "diegovilarinho-react-site",
+  "description": "Biblioteca contendo todos os plugins utilizados no projeto.",
+  "main": "",
+  "authors": [
+    "[object Object]"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  
+  "dependencies": {
+    "modernizr": "v2.8.3",
+    "jquery": "jQuery#1.11.3",
+    "imagesloaded": "desandro/imagesloaded#^4.1.0",
+    "lightgallery": "sachinchoolur/lightGallery#^1.2.18",
+    "isInViewport": "zeusdeux/isInViewport#^2.3.1",
+    "justifiedGallery": "miromannino/Justified-Gallery#^3.6.1",
+    "macy": "bigbitecreative/macy.js#^1.1.2",
+    "smoothscroll-for-websites": "galambalazs/smoothscroll-for-websites#^1.4.4"
+  }
+}

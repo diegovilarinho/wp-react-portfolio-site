@@ -1,0 +1,167 @@
+/*--------------------------------------------------------------
+ TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Vars
+# Fonts
+# Media Query
+## 768px
+## 1024px
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Vars
+--------------------------------------------------------------*/
+$size: 16;
+
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+body,
+#map *
+{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 18px;
+	line-height: calc(30 / 18);
+	font-weight: normal;
+}
+
+h1, .ish-h1, #map h1
+{
+	font-size: 50px;
+	line-height: calc(100 / 90);
+	font-weight: normal;
+}
+
+h2, .ish-h2, #map h2,
+.ish-sc-icon.ish-icon-large,
+.ish-result:before
+{
+	font-size: 40px;
+	line-height: calc(70 / 60);
+	font-weight: normal;
+}
+
+h3, .ish-h3, #map h3,
+.ish-sc-icon.ish-icon-medium
+{
+	font-size: 30px;
+	line-height: calc(50 / 40);
+	font-weight: normal;
+}
+
+h4, .ish-h4, #map h4,
+.site-description,
+.ish-icon-nav i,
+.ish-portfolio-navigation
+{
+	font-size: 25px;
+	line-height: calc(35 / 25);
+	font-weight: normal;
+}
+
+h5, .ish-h5, #map h5,
+.post-meta-key,
+.ish-footer .ish-social-box,
+.ish-sc-icon.ish-icon-small,
+.ish-sc-button.ish-btn-large
+{
+	font-size: 20px;
+	line-height: calc(30 / 20);
+	font-weight: normal;
+}
+
+h6, .ish-h6, #map h6,
+.ish-pflo-gal.ish-2col .ish-title,
+.ish-navigation ul ul,
+.ish-footer .ish-legals,
+.ish-sc-button.ish-btn-medium
+{
+	font-size: 16px;
+	line-height: calc(25 / 16);
+	font-weight: normal;
+}
+
+.required-error:before,
+.required-error:after,
+.ish-sc-button.ish-btn-small,
+.ish-blog .ish-blog-post-details
+{
+	font-size: 14px;
+}
+
+.ish-widget-recent-posts .post-date,
+.ish-widget-recent-tweets .tweet-details
+{
+	font-size: 12px;
+	line-height: normal;
+}
+
+.ish-nav-close i,
+.ish-back-to-top i,
+.ish-contact-info-container i
+{
+	font-size: 120%;
+}
+
+header .ish-tagline-widget
+{
+	font-weight: 600;
+}
+
+.ish-sc-button
+{
+	line-height: 1;
+}
+
+.justified-gallery > a > .caption,
+.justified-gallery > div > .caption
+{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
+	line-height: calc(30 / 18);
+	font-weight: normal;
+}
+
+/*--------------------------------------------------------------
+# Media Query
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## 768px / 48em
+--------------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+	h1, .ish-h1, #map h1
+	{
+		font-size: 70px;
+	}
+
+	h2, .ish-h2, #map h2
+	{
+		font-size: 50px;
+	}
+
+	h3, .ish-h3, #map h3
+	{
+		font-size: 35px;
+	}
+}
+
+/*--------------------------------------------------------------
+## 1024px / 64em
+--------------------------------------------------------------*/
+@media only screen and (min-width: 1024px) {
+	h1, .ish-h1, #map h1
+	{
+		font-size: 90px;
+	}
+
+	h2, .ish-h2, #map h2
+	{
+		font-size: 60px;
+	}
+
+	h3, .ish-h3, #map h3
+	{
+		font-size: 40px;
+	}
+}
