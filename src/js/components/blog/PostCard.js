@@ -47,7 +47,11 @@ class PostCard extends React.Component {
 			backgroundColor: postCategoryColor
 
 		}
-		const classes = 'ish-item ish-color' + postCategoryId;
+		let classes = 'ish-item ish-color' + postCategoryId;
+
+		if(this.props.lastCard === true) {
+			classes = classes + ' post-card--latest';
+		}
 
 		return (
 			<div className={classes}>
